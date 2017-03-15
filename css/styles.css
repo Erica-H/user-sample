@@ -1,6 +1,14 @@
 /* Your Awesome Styling*/
 
+/*Form Styling*/
+label, input {
+    display: block;
+}
 
+input[type="submit"] {
+    border: 0;
+    margin: 1em;
+}
 
 
 /* Mobile: 320px = 20em */
