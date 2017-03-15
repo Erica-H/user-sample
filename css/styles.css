@@ -1,5 +1,26 @@
 /* Your Awesome Styling*/
 
+/*Bio and Resume*/
+
+.bio article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bio section {
+    margin: 0 10px;
+    width: 90%;
+}
+
+.bio img {
+    margin-left: 100px;
+}
+
+.bio #resume section {
+    flex: 1 25%;
+}
+
+
 /*Form Styling*/
 label, input {
     display: block;
@@ -9,6 +30,8 @@ input[type="submit"] {
     border: 0;
     margin: 1em;
 }
+
+
 
 
 /* Mobile: 320px = 20em */
